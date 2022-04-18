@@ -1,0 +1,9 @@
+def do_movement():
+    if input_.left:
+        input_.cam.process_keyboard("LEFT", 0.05)
+    if input_.right:
+        input_.cam.process_keyboard("RIGHT", 0.05)
+    if input_.forward:
+        input_.cam.process_keyboard("FORWARD", 0.05)
+    if input_.backward:
+        input_.cam.process_keyboard("BACKWARD", 0.05)
